@@ -1,0 +1,31 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$blu: #138496;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+.container {
+  margin: 0px, auto;
+  padding: 20px;
+  width: 600;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list-item {
+  background-color: $blu;
+  padding: 20px;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  color: white;
+  font-style: bold;
+}
